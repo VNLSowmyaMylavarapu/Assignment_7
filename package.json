@@ -1,0 +1,19 @@
+{
+  "name": "placement-screening-system",
+  "version": "1.0.0",
+  "description": "A placement screening system",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.2"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
